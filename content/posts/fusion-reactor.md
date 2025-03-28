@@ -1,6 +1,5 @@
 ---
 title: Fusion Reactor
-date: 2025-02-20
 ---
 
 Today is February 20th, 2025. We just got news from France: they were able to run their fusion reactor for 22 minutes. This event outperformed China's latest by 18 minutes! Why do we care?
