@@ -158,5 +158,4 @@ The rest of the heat, we capture and exchange it to produce steam to run turbine
 
 ### Conclusion
 
-Hopefully, 
-
+It is certainly a promising prospect for humanity. Hopefully, we can make better and more stable fusion reactors so we can generate more sustainable energy.
