@@ -13,7 +13,7 @@ Since Aristotle's era in 4th BCE, human started to realize that a lot of things 
 - true or false
 - light or dark
 
-This is true in any culture, for example also found in Chinese culture, there is yin and yang.
+This is true in any culture, for example, also found in Chinese culture, there is yin and yang.
 
 ### Counting
 

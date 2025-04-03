@@ -38,7 +38,7 @@ With the same logic, we can make truth tables for OR and NOT.
 
 > If I have a bicycle (A) OR the train is running (B), then I can go to school (C).
 > 
-The result C is 0 only if A = 0 and B = 0. This is the fundamental rule for OR operation.
+The result C is 0 only if A = 0 and B = 0. This is the fundamental rule for OR operation. 
 
 The truth table for OR is:
 | Bicycle (A) | Train (B) | Can go to school (C) |
@@ -123,7 +123,7 @@ A + \overline{A} = 1 \quad
 $$
 
 ### De Morgan's Laws
-Following the strong foundation laid out by Boole, Augustus de Morgan, who was a mathematician and logician, expanded it even further. For de Morgan, it was to use negation (NOT) to interact with the previous Boolean algebra.
+Following the strong foundation laid out by Boole, Augustus de Morgan, who was a mathematician and logician, expanded it even further. For de Morgan, it was to use negation (NOT) to interact with the previous Boolean algebra. These two laws would later be established as de Morgan's Laws.
    
 First law:
 $$
