@@ -13,7 +13,7 @@ I follow the spirit of building in public, so this page will be updated periodic
 - [Binary Number](/binary-number.md)
 - [Boolean Algebra](/boolean-algebra.md)
 
-### Electricity
+### Physics
 - [Electricity](/electricity.md)
 - [Magnet](/magnet.md)
 - Battery
