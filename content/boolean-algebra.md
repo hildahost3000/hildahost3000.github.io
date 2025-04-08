@@ -75,40 +75,54 @@ There are also algebraic laws that can be used for logical operations:
 #### Commutative Laws
 In AND and OR operations, the order of inputs doesn’t matter.
 $$
-A \cdot B = B \cdot A \quad (\text{AND}) \\
-A + B = B + A \quad (\text{OR})
+\begin{aligned}
+A \cdot B &= B \cdot A \quad (\text{AND}) \\
+A + B &= B + A \quad (\text{OR})
+\end{aligned}
 $$
+
 
 #### Associative Laws
 In AND and OR operations, input can be grouped and it will not affect the result of the operations.
 $$
-(A \cdot B) \cdot C = A \cdot (B \cdot C) \quad (\text{AND}) \\
-(A + B) + C = A + (B + C) \quad (\text{OR})
+\begin{aligned}
+(A \cdot B) \cdot C &= A \cdot (B \cdot C) \quad (\text{AND}) \\
+(A + B) + C &= A + (B + C) \quad (\text{OR})
+\end{aligned}
 $$
+
 
 #### Distributive Laws
 We can distribute AND over OR operations, and vice versa.
 $$
-A \cdot (B + C) = (A \cdot B) + (A \cdot C) \\
-A + (B \cdot C) = (A + B) \cdot (A + C)
+\begin{aligned}
+A \cdot (B + C) &= (A \cdot B) + (A \cdot C) \\
+A + (B \cdot C) &= (A + B) \cdot (A + C)
+\end{aligned}
 $$
+
 
 #### Identity Laws
 
 Multiplying a variable by 1 (AND) or adding 0 (OR) to it does not change the result.
 
 $$
-A \cdot 1 = A \quad \\
-A + 0 = A \quad
+\begin{aligned}
+A \cdot 1 &= A \quad \\
+A + 0 &= A \quad
+\end{aligned}
 $$
+
 
 #### Null Laws
 
 Multiplying a variable by 0 (AND) results in 0 and adding 0 (OR) to it results in 1. 
 
 $$
-A \cdot 0 = 0 \quad  \\
-A + 1 = 1 \quad
+\begin{aligned}
+A \cdot 0 &= 0 \quad \\
+A + 1 &= 1 \quad
+\end{aligned}
 $$
 
 #### Complement Laws
@@ -118,23 +132,32 @@ Adding (OR) by the complement (NOT) of a variable results in 1.
 
 A variable ANDed or ORed with its complement gives fixed results:
 $$
-A \cdot \overline{A} = 0 \quad \\
-A + \overline{A} = 1 \quad 
+\begin{aligned}
+A \cdot \overline{A} &= 0 \quad \\
+A + \overline{A} &= 1 \quad
+\end{aligned}
 $$
+
 
 ### De Morgan's Laws
 Following the strong foundation laid out by Boole, Augustus de Morgan, who was a mathematician and logician, expanded it even further. For de Morgan, it was to use negation (NOT) to interact with the previous Boolean algebra. These two laws would later be established as de Morgan's Laws.
    
 First law:
 $$
-\overline{A \cdot B} = \overline{A} + \overline{B} \\
-NOT(A \cdot B) = (NOT A) + (NOT B)
+\begin{aligned}
+\overline{A \cdot B} &= \overline{A} + \overline{B} \\
+NOT(A \cdot B) &= (NOT A) + (NOT B)
+\end{aligned}
 $$
+
 
 Second law:
 $$
-\overline{A + B} = \overline{A} \cdot \overline{B}\\
-NOT (A + B) = (NOT A) \cdot (NOT B)
+\begin{aligned}
+\overline{A + B} &= \overline{A} \cdot \overline{B} \\
+NOT (A + B) &= (NOT A) \cdot (NOT B)
+\end{aligned}
 $$
+
 
 This will later be useful to make Boolean algebra more simplified.

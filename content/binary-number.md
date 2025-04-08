@@ -19,17 +19,23 @@ For decimal, there are 9 digits (0 to 9), we use base 10. It means, we can repre
 Let's say we have 578, five hundred seventy eight. We can represent it as:
 
 $$
-578 = (5 \times 100) + (7 \times 10) + (8 \times 1) \\
-= (5 \times 10^2) + (7 \times 10^1) + (8 \times 10^0)
+\begin{aligned}
+578 &= (5 \times 100) + (7 \times 10) + (8 \times 1) \\
+    &= (5 \times 10^2) + (7 \times 10^1) + (8 \times 10^0)
+\end{aligned}
 $$
+
 
 For binary, instead of 10 we use 2 because we only have 2 digits, 0 and 1. Let's say we have the number 101. We can convert it to decimal by:
 
 $$
-101 = (1 \times 2^2) + (0 \times 2^1) + (1 \times 2^0) \\
-= (1 \times 4) + (0 \times 2) + (1 \times 1) \\
-= 4 + 0 + 1 = 5
+\begin{aligned}
+101 &= (1 \times 2^2) + (0 \times 2^1) + (1 \times 2^0) \\
+    &= (1 \times 4) + (0 \times 2) + (1 \times 1) \\
+    &= 4 + 0 + 1 = 5
+\end{aligned}
 $$
+
 
 ### Conversion to Binary
 
@@ -38,9 +44,12 @@ But the problem is, our everyday numbers are in decimal, right? So we need to co
 Let's use the number 5 from our previous binary conversion. This is how we get 101:
 
 $$
-5 \div 2 = 2 \, \text{remainder } 1 \\
-2 \div 2 = 1 \, \text{remainder } 0 \\
-1 \div 2 = 0 \, \text{remainder } 1
+\begin{aligned}
+5 \div 2 &= 2 \, \text{remainder } 1 \\
+2 \div 2 &= 1 \, \text{remainder } 0 \\
+1 \div 2 &= 0 \, \text{remainder } 1
+\end{aligned}
 $$
+
 
 Reading the remainders from bottom to top, we get 101.

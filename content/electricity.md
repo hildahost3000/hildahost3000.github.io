@@ -43,9 +43,9 @@ Amber pieces are lightweight, so they naturally float on water. And at some poin
 
 ### Electricity
 
-The earliest recorded observation of electricity was made by Thales of Miletus in 600 BCE. Ancient Greeks discovered that rubbing amber stones with fur will make the stones atttract small objects.
+The earliest recorded observation of electricity was made by Thales of Miletus in 600 BCE. Ancient Greeks discovered that rubbing amber stones with fur will make the stones atttract small objects. This phemonenon is now called as static electricity, and objects having this behavior are described as as electrically charged.
 
-Apart from that, human observed this natural phenomenon through various experiences:
+Apart from that, human observed electricity through various experiences:
 - lightning during thunderstorms in the sky
 - clothes made by certain types of fabric sticking to each other after being worn
 - sparks when touching metal objects, especially in dry weather

@@ -9,7 +9,7 @@
   "homepage": "https://hildahost3000.github.io/library",
   "repository": {
     "type": "git",
-    "url": "https://github.com/hildahost3000/library"
+    "url": "git+https://github.com/hildahost3000/library.git"
   },
   "scripts": {
     "quartz": "./quartz/bootstrap-cli.mjs",
@@ -32,7 +32,7 @@
     "quartz"
   ],
   "bin": {
-    "quartz": "./quartz/bootstrap-cli.mjs"
+    "quartz": "quartz/bootstrap-cli.mjs"
   },
   "dependencies": {
     "@clack/prompts": "^0.10.0",
@@ -56,7 +56,7 @@
     "hast-util-to-string": "^3.0.1",
     "is-absolute-url": "^4.0.1",
     "js-yaml": "^4.1.0",
-    "katex": ">=0.16.21",
+    "katex": "^0.16.21",
     "lightningcss": "^1.29.1",
     "mdast-util-find-and-replace": "^3.0.2",
     "mdast-util-to-hast": "^13.2.0",
@@ -113,5 +113,10 @@
     "prettier": "^3.5.0",
     "tsx": "^4.19.2",
     "typescript": "^5.7.3"
+  },
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "bugs": {
+    "url": "https://github.com/hildahost3000/library/issues"
   }
 }

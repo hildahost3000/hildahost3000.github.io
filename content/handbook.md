@@ -16,10 +16,14 @@ I follow the spirit of building in public, so this page will be updated periodic
 ### Physics
 - [Electricity](/electricity.md)
 - [Magnet](/magnet.md)
-- Battery
-- Relays
-- Vacuum Tubes
+- [Early Studies](/early-studies.md)
 
-#### 
-- Shannon thesis
+### Electromagnetic Inventions
+- Electromagnetic Switch
+- Relay
+- Vacuum Tubes
+- Flip-Flop
+
+###  Foundations of Computer
+- [First Computer](/first-computer.md)
 - 
