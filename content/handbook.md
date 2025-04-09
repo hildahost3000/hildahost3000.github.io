@@ -18,12 +18,14 @@ I follow the spirit of building in public, so this page will be updated periodic
 - [Magnet](/magnet.md)
 - [Early Studies](/early-studies.md)
 
-### Electromagnetic Inventions
+### Inventions
 - Electromagnetic Switch
 - Relay
 - Vacuum Tubes
 - Flip-Flop
-
-###  Foundations of Computer
 - [First Computer](/first-computer.md)
-- 
+  
+###  Digital Logic
+- [Basic Gates Implementation](/basic-gates-implementation.md)
+- [First Abstraction](/first-abstraction.md)
+- [Using C++](/using-cpp.md)

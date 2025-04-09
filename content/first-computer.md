@@ -8,38 +8,24 @@ At this point, these ideas belong to two different fields.
 - mechanical calculator implementation is part of practical engineering
 - binary system and logical operation is part of abstract mathematics
 
-### First Binary Calculator
+### About Z3
 
-Enter Konrad Zuse, most likely the very first person who combined the two fields into one single working programmable binary mechanical computer slash calculator named Z1.
+Enter Konrad Zuse, the very first person who combined the two fields into one single working programmable binary mechanical computer named Z3. 
 
+For reference, he did create two earlier versios which were Z1 and Z2. Since the Z1 was wholly mechanical, although it utilized binary system, it will not be reexplained here.  The Z2 did utilize relays; however, it was limited in functionality because its main purpose was to test the idea of using relays to replace mechanical gears.
 
-
-
-### First Computer
-With the invention of switch and relay, enter Konrad Zuse, most likely was the very first person who combined the two fields into one single working programmable binary mechanical computer slash calculator named Z1.
-
-Since Z1 was rather large in design, let's break it down by using Claude Shannon's famous master thesis.
-
-### Basic Logic Gates Implementation
-
-Like Zuse, Claude Shannon realized (a few years later) that the binary state of 0 and 1 can actually be represented with a switch. Therefore, it is possible to perform Boolean algebra practically using them.
-
-In his master thesis, Shannon demonstrated how to use switches to implement AND and OR gates, and relay for NOT gate.
-
-#### AND and OR Gates
-
-A simple electrical circuit will be used, and the input is an electricity curent connected with a switch that represent 1 (closed) or 0 (open). The output will be observed, whether there is electricity (1) or no (0). 
-
-1. AND Gate is implemented by connecting two switches in series. The output is only 1 when both inputs are 1. If one switch is open, electricity will not flow.
-
-2. OR Gate is implemented by connecting two switches in parallel. The output is only 0 when both inputs are 0. If one switch is open, electricity can still flow from the other end.
+Here are some facts about Z3:
+- it was a fully programmable using punched tape or a special keyboard as input
+- the output will be shown through on/off state on a row of lamps, indicating each digit
+- implented using around 2,600 relays
+- could perform arithmetic (addition, substraction, multiplication, division) and also square root
+- could handle 22 bit (binary digit) in floating points as input and output
 
 
-#### NOT Gate
-This version of electrical circuit will use a relay with a normally closed (NC) contact. 
+### Breaking It Down
 
-3. NOT Gate is implemented by using a relay. When the input is 0, the NC contact is not changed and electricity still flow (1). When the input is 1, the NC contact opens and electricity will stop flowing (0).
+But how did we go so quick from inventing the first binary system to creating the first relay to building the first computer?
 
+Or even in more detail, how do we define arithmetic using binary system (0 and 1) and implemented with relays as a switch?
 
-### Z1
-
+This marks the end of journey of tracing historical invention and discovery. From now on, we will utilize modern knowledge.
