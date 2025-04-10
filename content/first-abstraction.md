@@ -21,7 +21,5 @@ For example, we say "shoes" when the actual shoes have more details such as: mad
 
 In earlier materials, we talked about how we can implement logic gates with using relays. We can connect them in series for an AND gate, or in parallel for OR gate, or a normally closed contact relay for an NOT gate.
 
-However, since we will move towards building more complex logic blocks, we will simplify them into just saying AND, OR, or NOT gate. We will not go to detail on the actual switches that we need to use. We will cautiously ignore the physical implementation for now, and abstract these gates using C++ programming language.
-
-The C++ language itself will also be another layer of abstraction. We will not focus about how the text (call codes) we write can output a certain value. We will singlemindedly focus on the logical behavior of our input and output.
+However, since we will move towards building more complex logic blocks, we will simplify them into just saying AND, OR, or NOT gate. We will not go to detail on the actual switches that we need to use. We will cautiously ignore the physical implementation for now, and abstract these gates using diagram.
 

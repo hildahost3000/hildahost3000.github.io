@@ -28,4 +28,10 @@ I follow the spirit of building in public, so this page will be updated periodic
 ###  Digital Logic
 - [Basic Gates Implementation](/basic-gates-implementation.md)
 - [First Abstraction](/first-abstraction.md)
-- [Using C++](/using-cpp.md)
+- [Diagram](/diagram.md)
+- [Multiplexer and Demultiplexer](/multiplexer-demultiplexer.md)
+- [Encoder and Decoder](/encoder-decoder.md)
+- Adders (Half Adder, Full Adder, Ripple Carry Adder)
+- Subtractors (Half Subtractor, Full Subtractor)
+- Comparator
+
