@@ -31,7 +31,6 @@ I follow the spirit of building in public, so this page will be updated periodic
 - [Diagram](/diagram.md)
 - [Multiplexer and Demultiplexer](/multiplexer-demultiplexer.md)
 - [Encoder and Decoder](/encoder-decoder.md)
-- Adders (Half Adder, Full Adder, Ripple Carry Adder)
+- [Adders](/adders.md) (Half Adder, Full Adder, Ripple Carry Adder)
 - Subtractors (Half Subtractor, Full Subtractor)
 - Comparator
-
