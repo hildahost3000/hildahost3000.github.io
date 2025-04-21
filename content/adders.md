@@ -22,7 +22,7 @@ Half adder performs addition of two single binary digits, called as significant 
 
 $$
 \begin{aligned}
-Sum = A + B \\
+Sum = A \oplus B \\
 Carry = A \cdot B
 \end{aligned}
 $$ 
@@ -45,18 +45,18 @@ Full adder performs addition of two single significant bits, and a carry from th
 | 1 | 1 | 0    | 0       | 1                 |
 | 1 | 1 | 1    | 1       | 1                 |
 
-### Logic Equations for Full Adder
+$$
+\begin{aligned}
+\text{Sum} &= A \oplus B \oplus C_{\text{in}} \\
+\text{Carry-out} &= (A \cdot B) + (B \cdot C_{\text{in}}) + (A \cdot C_{\text{in}})
+\end{aligned}
+$$
 
-- **Sum (\( S \))**:
-  \[
-  S = A \oplus B \oplus C_{\text{in}}
-  \]
-  Where \(\oplus\) denotes the XOR operation.
 
-- **Carry-out (\( C_{\text{out}} \))**:
-  \[
-  C_{\text{out}} = (A \cdot B) + (B \cdot C_{\text{in}}) + (A \cdot C_{\text{in}})
-  \]
-  Where \(\cdot\) denotes the AND operation, and \(+\) denotes the OR operation.
+It is also easy to imagine a full adder as two half-adders combined.
 
-These equations and the truth table describe how a full adder computes the sum and carry-out for three input bits. The full adder is fundamental in building more complex arithmetic circuits like ripple carry adders for multi-bit binary addition.
+### Ripple Carry Adder
+Knowing that half carry adders can be used to make a full adder, now we learn that full adders can be used to make a ripple carry adder.
+
+As the name suggest, this is an adder whose carry can be carried to the next one, and to the next one, and so on that it resembles a ripple. This can be used to perform addition of binary numbers. It could be built using multiple full addders connected in series. And if broken down even smaller, each of the digit can be calculated using a half adder.
+

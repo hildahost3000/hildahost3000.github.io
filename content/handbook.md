@@ -24,13 +24,23 @@ I follow the spirit of building in public, so this page will be updated periodic
 - Vacuum Tubes
 - Flip-Flop
 - [First Computer](/first-computer.md)
-  
-###  Digital Logic
+
+###  Combinational Logic
 - [Basic Gates Implementation](/basic-gates-implementation.md)
 - [First Abstraction](/first-abstraction.md)
 - [Diagram](/diagram.md)
 - [Multiplexer and Demultiplexer](/multiplexer-demultiplexer.md)
 - [Encoder and Decoder](/encoder-decoder.md)
 - [Adders](/adders.md) (Half Adder, Full Adder, Ripple Carry Adder)
-- Subtractors (Half Subtractor, Full Subtractor)
+- [Subtractors](/subtractors.md) (Half Subtractor, Full Subtractor) - not finished
 - Comparator
+
+### Sequential Logic
+- 
+
+
+
+### Semiconductor
+- Material
+- Basic Devices
+- Fabrication
