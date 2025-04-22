@@ -26,7 +26,7 @@ I follow the spirit of building in public, so this page will be updated periodic
 - [First Computer](/first-computer.md)
 
 ###  Combinational Logic
-- [Basic Gates Implementation](/basic-gates-implementation.md)
+- [Basic Gates Implementation](basic-gates-implementation.md)
 - [First Abstraction](/first-abstraction.md)
 - [Diagram](/diagram.md)
 - [Multiplexer and Demultiplexer](/multiplexer-demultiplexer.md)
@@ -36,7 +36,12 @@ I follow the spirit of building in public, so this page will be updated periodic
 - Comparator
 
 ### Sequential Logic
-- 
+- [Sequential Logic Introduction](/sequential-logic-introduction.md)
+- [SR Latch](/sr-latch.md)
+- D Flip-Flop
+- JK & T Flip-Flop
+- Registers
+- Counters
 
 
 
