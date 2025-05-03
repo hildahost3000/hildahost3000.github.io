@@ -18,5 +18,5 @@ Since I have studied this particular field from my previous undergraduate and gr
 I apologize for grammatical errors or language mistakes in my writings. 
 
 ### Feedback and Corrections
-If you want to submit a feedback or correction, you are welcome to [open an issue on GitHub.](/https://github.com/hildahost3000/hildahost3000.github.io/issues/new)
+If you want to submit a feedback or correction, you are welcome to [open an issue on GitHub.](https://github.com/hildahost3000/hildahost3000.github.io/issues/new)
 
