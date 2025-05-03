@@ -8,12 +8,12 @@ The operation is also very simple. There are 4 states determined based on S and 
 
 ### SR Latch Using NOR Gates
 
-| S (Set) | R (Reset) | Q (Output) | Q̅ (Complement) | State        |
-|---------|-----------|------------|----------------|--------------|
-| 0       | 0         | Q (hold)   | Q̅ (hold)      | Hold         |
-| 0       | 1         | 0          | 1              | Reset        |
-| 1       | 0         | 1          | 0              | Set          |
-| 1       | 1         | Invalid    | Invalid        | Invalid State|
+| S (Set) | R (Reset) | Q (Output) | Q̅ (Complement) | State         |
+| ------- | --------- | ---------- | --------------- | ------------- |
+| 0       | 0         | Q (hold)   | Q̅ (hold)       | Hold          |
+| 0       | 1         | 0          | 1               | Reset         |
+| 1       | 0         | 1          | 0               | Set           |
+| 1       | 1         | Invalid    | Invalid         | Invalid State |
 
 The "Invalid" state occurs when both inputs are 1, causing both outputs to be 0, which is not allowed since Q and Q̅ should always be complements.
 

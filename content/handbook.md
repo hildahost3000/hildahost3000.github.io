@@ -38,8 +38,8 @@ I follow the spirit of building in public, so this page will be updated periodic
 ### Sequential Logic
 - [Sequential Logic Introduction](/sequential-logic-introduction.md)
 - [SR Latch](/sr-latch.md)
-- D Flip-Flop
-- JK & T Flip-Flop
+- [D Flip-Flop](/d-flip-flop.md)
+- [JK & T Flip-Flop](/jk-t-flip-flop.md)
 - Registers
 - Counters
 
